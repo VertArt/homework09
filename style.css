@@ -10,13 +10,13 @@
     color: black;
 }
 
-body {
+/* body {
     font-family: 'Roboto' , sans-serif;
     font-weight: 400;
     font-size: 14px;
 
     color: #333333;
-} 
+}  */
 
 .clearfix {
     clear: both;
