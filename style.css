@@ -10,13 +10,13 @@
     color: black;
 }
 
-/* body {
+body {
     font-family: 'Roboto' , sans-serif;
     font-weight: 400;
     font-size: 14px;
 
     color: #333333;
-}  */
+} 
 
 .clearfix {
     clear: both;
@@ -70,7 +70,6 @@
     padding-top: 40px;
     padding-bottom: 40px;
 
-    font-family: Roboto;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -90,7 +89,6 @@
 }
 
 .number {
-    font-family: Roboto;
     font-size: 16px;
     line-height: 19px;
     display: inline-block;
@@ -100,13 +98,15 @@
 }
 
 .button {
+    margin-top: 5px;
+    height: 40px;
     font-size: 16px;
     border: 2px solid #F13C6E;
     box-sizing: border-box;
     border-radius: 40px;
     background-color: #fff;
 
-    padding: 12px 26px 13px 27px;   
+    padding: 9px 26px 10px 27px;   
 }
 
 .line {
@@ -119,13 +119,12 @@
     padding-bottom: 30px;
 }
 
-.list-item-2 {
+/* .list-item-2 {
     display: inline-block;
     vertical-align: top; 
-}
+} */
 
 .list-item-2 .link {
-    font-family: Roboto;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
@@ -152,7 +151,6 @@
 }
 
 .sup-chair-name {
-    font-family: Roboto;
     font-weight: 700;
     font-size: 48px;
     line-height: 56px;
@@ -168,6 +166,10 @@
 }
 
 .link.sup-chair-button {
+    display: inline-block;
+    vertical-align: top;
+    width: 170px;
+    height: 40px;
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.05em;
@@ -175,7 +177,7 @@
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     border-radius: 40px;
-    padding: 12px 26px 13px 27px;
+    padding: 10px 26px 12px 27px;
 }
 
 .big-space {
@@ -301,7 +303,6 @@
 
 .card-big-text-description.second {
     padding-right: 125px;
-    padding-bottom: 10px;
 }
  
 .card-big-text-staff.second {
@@ -314,14 +315,19 @@
 } 
 
 .link.sup-chair-button.card-botton {
-    padding: 9px 28px;
+    padding: 7px 1px 1px 1px;
     height: 35px;
     width: 170px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 .card-item {
     background-color: white;
-    width: 277.5px;
+    width: 25%;
+    height: 124px;
     display: inline-block;
     vertical-align: top;
     border: 0.01px solid #E5E5E5;
@@ -329,6 +335,9 @@
 
 .card-img {
     padding: 35px 69px 35px 60px;
+
+    display: inline-block;
+    vertical-align: top;
 }
 
 .conteiner.pre-footer-one {
